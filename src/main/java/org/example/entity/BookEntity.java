@@ -16,10 +16,10 @@ public class BookEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    String isbn;
-    String title;
-    String author;
-    String category;
+    private String isbn;
+    private String title;
+    private String author;
+    private String category;
     private Integer qty;
 
 }
